@@ -20,7 +20,7 @@ _This redesign was first outlined using grid paper and research on best practice
 * Cajun Red: #f24641
 * White: #fff
 
-![Screenshot](img/colorPalette.png)
+![Screenshot](wireframe/colorPalette.png)
 
 ### <span style="color:#74875d;">Typography</span>
 

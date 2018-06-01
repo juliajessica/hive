@@ -1,10 +1,10 @@
 # _<p align="center">Julia Sheremet</p>_
 
-## _Epicodus Website Redesign_
+## _Hive - a place for people to work remotely_
 
 ## <span style="color:#74875d;">Description</span>
 
-_This redesign was first outlined using grid paper and research on best practices for User Interfaces. The final production was created using Sketch._
+_This web application is outlined using grid paper and research on best practices for User Interfaces. The final wire framing and prototype production was created using Sketch._
 
 ![Screenshot](sketch/notes.jpeg)
 ![Screenshot](sketch/mobile.jpeg)![Screenshot](sketch/tabletDesktop.jpeg)
@@ -24,9 +24,9 @@ _This redesign was first outlined using grid paper and research on best practice
 
 ### <span style="color:#74875d;">Typography</span>
 
-_@import url('https://fonts.googleapis.com/css?family=Merriweather:300');_
+* @import url('https://fonts.googleapis.com/css?family=Merriweather:300');
 * font-family: 'Merriweather', serif;
-_@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');_
+* @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 * font-family: 'Archivo Narrow', sans-serif;
 
 ## <span style="color:#74875d;">Logo</span>

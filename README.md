@@ -6,8 +6,8 @@
 
 _This redesign was first outlined using grid paper and research on best practices for User Interfaces. The final production was created using Sketch._
 
-![Screenshot](img/notes.jpeg)
-![Screenshot](img/mobile.jpeg)![Screenshot](img/tabletDesktop.jpeg)
+![Screenshot](sketch/notes.jpeg)
+![Screenshot](sketch/mobile.jpeg)![Screenshot](sketch/tabletDesktop.jpeg)
 
 ## Planning and Preparation
 

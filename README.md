@@ -16,7 +16,7 @@ _This redesign was first outlined using grid paper and research on best practice
 
 * Dark Purple: #34314b
 * Yellow: #f6c600
-* Pink: #f798aa
+* Light Pink: #f798aa
 * Baby Blue: #3baef0
 * Cajun Red: #f24641
 * White: #fff

@@ -21,6 +21,8 @@ _This redesign was first outlined using grid paper and research on best practice
 * Cajun Red: #f24641
 * White: #fff
 
+![Screenshot](colorPalette.png)
+
 ### <span style="color:#74875d;">Typography</span>
 
 _@import url('https://fonts.googleapis.com/css?family=Merriweather:300');_

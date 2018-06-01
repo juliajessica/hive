@@ -17,12 +17,16 @@ _This redesign was first outlined using grid paper and research on best practice
 * Pink: #f798aa
 * Baby Blue: #3baef0
 * Cajun Red: #f24641
+* White: #fff
 
 ## <span style="color:#74875d;">Typography</span>
 
 
-_Yellow: #f6c600_
-_Dark Purple: #34314b_
+
+_@import url('https://fonts.googleapis.com/css?family=Merriweather:300');_
+* font-family: 'Merriweather', serif;
+_@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');_
+* font-family: 'Archivo Narrow', sans-serif;
 
 ## <span style="color:#74875d;">Logo</span>
 

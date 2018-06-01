@@ -10,9 +10,26 @@ _This redesign was first outlined using grid paper and research on best practice
 ![Screenshot](sketch.png)
 ![Screenshot](mobile.png)
 
-## <span style="color:#74875d;">Known Bugs</span>
+## <span style="color:#74875d;">Color Schemes</span>
 
-_None_
+* Dark Purple: #34314b
+* Yellow: #f6c600
+* Pink: #f798aa
+* Baby Blue: #3baef0
+* Cajun Red: #f24641
+
+## <span style="color:#74875d;">Typography</span>
+
+
+_Yellow: #f6c600_
+_Dark Purple: #34314b_
+
+## <span style="color:#74875d;">Logo</span>
+
+
+## <span style="color:#74875d;">Pages</span>
+
+
 
 ## <span style="color:#74875d;">Technologies Used</span>
 

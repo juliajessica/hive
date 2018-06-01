@@ -10,7 +10,9 @@ _This redesign was first outlined using grid paper and research on best practice
 ![Screenshot](sketch.png)
 ![Screenshot](mobile.png)
 
-## <span style="color:#74875d;">Color Schemes</span>
+
+##Planning and Preparation
+###<span style="color:#74875d;">Color Schemes</span>
 
 * Dark Purple: #34314b
 * Yellow: #f6c600
@@ -19,9 +21,7 @@ _This redesign was first outlined using grid paper and research on best practice
 * Cajun Red: #f24641
 * White: #fff
 
-## <span style="color:#74875d;">Typography</span>
-
-
+### <span style="color:#74875d;">Typography</span>
 
 _@import url('https://fonts.googleapis.com/css?family=Merriweather:300');_
 * font-family: 'Merriweather', serif;
@@ -32,8 +32,10 @@ _@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');_
 
 
 ## <span style="color:#74875d;">Pages</span>
-
-
+* About
+* Contact
+* Amenities
+* Photos
 
 ## <span style="color:#74875d;">Technologies Used</span>
 

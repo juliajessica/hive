@@ -6,13 +6,13 @@
 
 _This redesign was first outlined using grid paper and research on best practices for User Interfaces. The final production was created using Sketch._
 
-![Screenshot](outline.jpeg)
-![Screenshot](sketch.png)
-![Screenshot](mobile.png)
+![Screenshot](img/notes.jpeg)
+![Screenshot](img/mobile.jpeg)
+![Screenshot](img/tabletDesktop.jpeg)
 
+## Planning and Preparation
 
-##Planning and Preparation
-###<span style="color:#74875d;">Color Schemes</span>
+### <span style="color:#74875d;">Color Schemes</span>
 
 * Dark Purple: #34314b
 * Yellow: #f6c600
@@ -21,7 +21,7 @@ _This redesign was first outlined using grid paper and research on best practice
 * Cajun Red: #f24641
 * White: #fff
 
-![Screenshot](colorPalette.png)
+![Screenshot](img/colorPalette.png)
 
 ### <span style="color:#74875d;">Typography</span>
 
@@ -31,7 +31,7 @@ _@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');_
 * font-family: 'Archivo Narrow', sans-serif;
 
 ## <span style="color:#74875d;">Logo</span>
-
+ Create one in sketch of a bee hive
 
 ## <span style="color:#74875d;">Pages</span>
 * About

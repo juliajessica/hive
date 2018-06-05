@@ -6,21 +6,22 @@
 
 _This web application is outlined using grid paper and research on best practices for User Interfaces. The final wire framing and prototype production was created using Sketch._
 
-| Planning |
-| ------------- |
-| ![Screenshot](sketch/notes.jpeg) |
-
-| Mobile |
-| ------------- |
-| ![Screenshot](sketch/notes.jpeg) |
-
-| Sketch Mobile Wireframing and Prototypes |
+| Mobile Wireframing and Prototypes in Sketch |
 | ------------- | ------------- |
 | ![Screenshot](wireframe/mobile.png) |
 
-| Sketch Mobile Wireframing |
+| Mobile Wireframing in Sketch |
 | ------------- | ------------- |
 | ![Screenshot](wireframe/desktoptabletWireframing.png) |
+
+| Sketch Planning |
+| ------------- |
+| ![Screenshot](sketch/notes.jpeg) |
+
+| Sketch Mobile  | Sketch Tablet and Desktop |
+| ------------- | ------------- |
+| ![Screenshot](sketch/mobile.jpeg) | ![Screenshot](sketch/tabletDesktop.jpeg) |
+
 
 ## Planning and Preparation
 

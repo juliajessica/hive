@@ -10,9 +10,17 @@ _This web application is outlined using grid paper and research on best practice
 | ------------- |
 | ![Screenshot](sketch/notes.jpeg) |
 
-| Mobile | Tablet and Desktop |
+| Mobile |
+| ------------- |
+| ![Screenshot](sketch/notes.jpeg) |
+
+| Mobile Wireframing |
 | ------------- | ------------- |
-| ![Screenshot](sketch/mobile.jpeg) | ![Screenshot](sketch/tabletDesktop.jpeg) |
+| ![Screenshot](wireframe/mobile.png) |
+
+| Mobile Wireframing |
+| ------------- | ------------- |
+| ![Screenshot](wireframe/desktoptabletWireframing.png) |
 
 ## Planning and Preparation
 

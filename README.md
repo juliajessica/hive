@@ -14,11 +14,11 @@ _This web application is outlined using grid paper and research on best practice
 | ------------- |
 | ![Screenshot](sketch/notes.jpeg) |
 
-| Mobile Wireframing |
+| Sketch Mobile Wireframing and Prototypes |
 | ------------- | ------------- |
 | ![Screenshot](wireframe/mobile.png) |
 
-| Mobile Wireframing |
+| Sketch Mobile Wireframing |
 | ------------- | ------------- |
 | ![Screenshot](wireframe/desktoptabletWireframing.png) |
 

@@ -3,9 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "200px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
     <title>Julia Sheremet Profile</title>
   </head>
   <body>
+    <div id="wrapper">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="about.html" class="about">about</a>
+        <a href="portfolio.html" class="portfolio">portfolio</a>
+        <a href="contact.html" class="contact">contact</a>
+      </div>
+      <div style="font-size:30px;cursor:pointer" onclick="openNav()" class="nav-hamburger">&#9776;
+    </div>
+    </div>
     <div class="banner">
       <!-- <img src="img/banner.jpg" alt="hive cowork space"> -->
     </div>

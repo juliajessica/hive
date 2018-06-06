@@ -1,11 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300');
+//font-family: 'Merriweather', serif;
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+//font-family: 'Archivo Narrow', sans-serif;
+
+$mainFont: 'Merriweather', serif;
+$secondFont: 'Archivo Narrow', sans-serif;
+
 // $themeColor-Light: #f3e2c7;
 // $themeColor-Dark:#b68d4c;
 // $theme-font: verdana, sans-serif;
-
+//
 // body {
 //   font: $theme-font;
 //   background-color: $themeColor-Light;
-//   h1, h2 {
+//   h1, h2, h3 {
 //     color: $themeColor-Dark
 //   }
-// }
+
+//Use rem for Padding and Margin in Grids and Lists
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin: 70px;
+  font-family: $secondFont;
+  font-size: 15px;
+  max-width: 1700px;
+}
+
+.banner {
+
+}

@@ -14,13 +14,9 @@ _This web application is outlined using grid paper and research on best practice
 | ------------- |
 | ![Screenshot](wireframe/desktoptabletWireframing.png) |
 
-| Sketch Planning |
-| ------------- |
-| ![Screenshot](sketch/notes.jpeg) |
-
-| Sketch Mobile  | Sketch Tablet and Desktop |
+| Sketch Mobile  | Sketch Tablet and Desktop | Planning |
 | ------------- | ------------- |
-| ![Screenshot](sketch/mobile.jpeg) | ![Screenshot](sketch/tabletDesktop.jpeg) |
+| ![Screenshot](sketch/mobile.jpeg) | ![Screenshot](sketch/tabletDesktop.jpeg) | ![Screenshot](sketch/notes.jpeg) |
 
 
 ## Planning and Preparation

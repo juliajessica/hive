@@ -4,7 +4,10 @@
 //font-family: 'Archivo Narrow', sans-serif;
 
 $mainFont: 'Merriweather', serif;
-$secondFont: 'Archivo Narrow', sans-serif;
+$narrowFont: 'Archivo Narrow', sans-serif;
+$mustardYellow: #D8B264;
+$whiteColor: #fff;
+$darkGrey: #454B49;
 
 // $themeColor-Light: #f3e2c7;
 // $themeColor-Dark:#b68d4c;
@@ -53,7 +56,9 @@ body {
 
 .nav-hamburger {
   position: fixed;
-  left: 0;
+  padding-top: 50px;
+  top: 0;
+  left: 1;
   padding-right: 20px;
   display: flex;
   flex-direction: row;
@@ -68,37 +73,31 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-image: -webkit-linear-gradient(right, #e5d1d0, #e8e8e8);
-  background-image: -moz-linear-gradient(right, #e5d1d0, #e8e8e8);
-  background-image: -o-linear-gradient(right, #e5d1d0, #e8e8e8);
-  background-image: -ms-linear-gradient(right, #e5d1d0, #e8e8e8);
-  background-image: linear-gradient(right, #e8e8e8, #e5d1d0);
+  background-image: -webkit-linear-gradient(bottom, $mustardYellow, #e8e8e8);
+  background-image: -moz-linear-gradient(bottom, $mustardYellow, #e8e8e8);
+  background-image: -o-linear-gradient(bottom, $mustardYellow, #e8e8e8);
+  background-image: -ms-linear-gradient(bottom, $mustardYellow, #e8e8e8);
+  background-image: linear-gradient(bottom, $mustardYellow, #e5d1d0);
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
-  opacity: 3.5px;
+  padding-top: 100px;
+  opacity: 40.5px;
+  font-family: $narrowFont;
+  line-height: 50px;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 35px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: $whiteColor;
   display: block;
   transition: 0.5s;
 }
 
-// .about:hover {
-//   color: #f7684f;
-// }
-//
-// .portfolio:hover {
-//   color: #e5da85;
-// }
-//
-// .contact:hover {
-//   color: #a0f7e1;
-// }
+.about:hover, .contact:hover, .amenities:hover {
+  color: $darkGrey;
+}
 
 .sidenav .closebtn {
   position: absolute;

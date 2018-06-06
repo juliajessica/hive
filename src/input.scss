@@ -25,12 +25,26 @@ $secondFont: 'Archivo Narrow', sans-serif;
 }
 
 body {
-  margin: 70px;
-  font-family: $secondFont;
+  margin: 100px;
+  font-family: $mainFont;
   font-size: 15px;
   max-width: 1700px;
 }
 
 .banner {
 
+}
+
+.form {
+  position: relative;
+  padding:1rem;
+  font-family: $mainFont;
+}
+
+.select {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
 }

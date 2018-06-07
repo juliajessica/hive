@@ -124,7 +124,7 @@ body {
   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
   height: 40px;
   overflow: hidden;
-  width: 330px;
+  width: 1600px;
   background-color: $pink;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -132,33 +132,86 @@ body {
 }
 
 //mobile
-@media (max-width: 350px) {
-  .select-style {
-    width: 300px;
-  }
+@media (min-width: 200px) and (max-width: 700px) {
   body {
     background-color: green;
-    margin: 20px;
+    margin: 40px;
+  }
+  .select-style {
+    width: 530px;
   }
 }
 
-@media (max-width: 450px) {
+@media (min-width: 700px) and (max-width: 800px) {
+  body {
+    background-color: red;
+    margin: 60px;
+  }
+  .select-style {
+    width: 620px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 960px) {
+  body {
+    background-color: orange;
+    margin: 60px;
+  }
+  .select-style {
+    width: 680px;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1060px) {
+  body {
+    background-color: green;
+    margin: 60px;
+  }
+  .select-style {
+    width: 820px;
+  }
+}
+@media (min-width: 1061px) and (max-width: 1200px) {
   body {
     background-color: blue;
-    margin: 20px;
+    margin: 70px;
   }
   .select-style {
-    width: 600px;
+    width: 930px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+  body {
+    background-color: purple;
+    margin: 80px;
+  }
+  .select-style {
+    width: 1080px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  body {
+    background-color: lavender;
+    margin: 90px;
+  }
+  .select-style {
+    width: 1290px;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1730px) {
+  body {
+    background-color: pink;
+    margin: 110px;
+  }
+  .select-style {
+    width: 1480px;
   }
 }
 
 
-
-@media (max-width: 480px) and (max-width: 670px) {
-  .select-style {
-    width: 400px;
-  }
-}
 
 
 

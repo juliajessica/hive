@@ -20,7 +20,11 @@ $darkGrey: #454B49;
 //     color: $themeColor-Dark
 //   }
 
-//Use rem for Padding and Margin in Grids and Lists
+//Set Document Font Size with Percentages
+//Only Modify font-size from the Lowest Parent
+//Use rem for Padding & Margin in Grids and Lists
+//Avoid px in Child Elements, use em, rem, percentages, or viewport units (vw) whenever possible.
+//1em = 16px, and 2em = 32px.
 
 * {
   margin:0;
@@ -30,7 +34,7 @@ $darkGrey: #454B49;
 body {
   margin: 100px;
   font-family: $mainFont;
-  font-size: 15px;
+  font-size: 100%;
   max-width: 1700px;
 }
 
@@ -48,8 +52,8 @@ body {
 
 .select {
   color: #ffffff;
-  padding: 8px 16px;
-  border: 1px solid transparent;
+  padding: 1em 2em;
+  // border: 1em solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
 }
@@ -103,6 +107,12 @@ body {
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 60px;
   margin-left: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
 }

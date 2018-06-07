@@ -9,6 +9,7 @@ $mustardYellow: #D8B264;
 $whiteColor: #fff;
 $darkGrey: #454B49;
 $pink: #FFD4C4;
+$roundImg: 50%;
 
 
 //Set Document Font Size with Percentages
@@ -121,7 +122,7 @@ body {
 }
 
 .select-style {
-  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+  // background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
   height: 40px;
   overflow: hidden;
   width: 1600px;
@@ -130,6 +131,21 @@ body {
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
+
+.circle-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+
+}
+
+.img-flex {
+  border-radius: $roundImg;
+  max-width: 300px;
+  max-height: 300px;
+}
+
 
 //mobile
 @media (min-width: 200px) and (max-width: 700px) {

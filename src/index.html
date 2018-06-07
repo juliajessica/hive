@@ -28,7 +28,7 @@
     </div>
 
     <picture class="banner">
-        <source media="(max-width: 400px)"  srcset="img/splash400.jpeg">
+        <!-- <source media="(max-width: 400px)"  srcset="img/splash400.jpeg"> -->
         <source media="(max-width: 700px)" srcset="img/splash700.jpeg">
         <source media="(max-width: 1000px)" srcset="img/splash.jpeg 1000w">
          <img alt="hive cowork space" src="img/splashFull.jpeg" class="banner-img">
@@ -37,23 +37,26 @@
       <h3>Welcome to Hive. This is a space where the creative minds can come together and collaborate and get work done. Bring your colony or just bring yourself and pick out a space that suits you best. Whether you’re a pilates teacher, artist, designer, entrepreneur, you name it — we have the perfect space for you.<h3>
     </div>
     <div class="form">
-      <select>
-        <option selected>WHICH HIVE ARE YOU INTERESTED IN?</option>
-        <option value="1">Single Office</option>
-        <option value="2">Community Desk</option>
-        <option value="3">Private Room</option>
-        <option value="4">Conference Room</option>
-      </select>
-      <br>
-      <br>
-      <select>
-        <option selected>HOW MANY ARE IN YOUR COLONY?</option>
-        <option value="1">Self</option>
-        <option value="2">1-3</option>
-        <option value="3">3-7</option>
-        <option value="4">10-15</option>
-        <option value="5">20+</option>
-      </select>
+      <div class="form-select">
+        <select class="select-style">
+          <option selected>WHICH HIVE ARE YOU INTERESTED IN?</option>
+          <option value="1">Single Office</option>
+          <option value="2">Community Desk</option>
+          <option value="3">Private Room</option>
+          <option value="4">Conference Room</option>
+        </select>
+        <br>
+        <br>
+        <select class="select-style">
+          <option selected>HOW MANY ARE IN YOUR COLONY?</option>
+          <option value="1">Self</option>
+          <option value="2">1-3</option>
+          <option value="3">3-7</option>
+          <option value="4">10-15</option>
+          <option value="5">20+</option>
+        </select>
+      </div>
+
       <br>
       <br>
       <svg width="180px" height="40px" viewBox="0 0 180 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

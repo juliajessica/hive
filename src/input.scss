@@ -8,17 +8,8 @@ $narrowFont: 'Archivo Narrow', sans-serif;
 $mustardYellow: #D8B264;
 $whiteColor: #fff;
 $darkGrey: #454B49;
+$pink: #FFD4C4;
 
-// $themeColor-Light: #f3e2c7;
-// $themeColor-Dark:#b68d4c;
-// $theme-font: verdana, sans-serif;
-//
-// body {
-//   font: $theme-font;
-//   background-color: $themeColor-Light;
-//   h1, h2, h3 {
-//     color: $themeColor-Dark
-//   }
 
 //Set Document Font Size with Percentages
 //Only Modify font-size from the Lowest Parent
@@ -32,18 +23,16 @@ $darkGrey: #454B49;
 }
 
 body {
-  margin: 100px;
+  margin: 0 100px;
   font-family: $mainFont;
   font-size: 100%;
   max-width: 1700px;
 }
 
 .banner {
-  // max-width: 1500px;
   height: 400px;
   overflow: hidden;
   display: flex;
-  // flex-direction: column;
   align-items: center;
   margin: auto;
 }
@@ -59,13 +48,13 @@ body {
   font-family: $mainFont;
 }
 
-.select {
-  color: #ffffff;
-  padding: 1em 2em;
-  // border: 1em solid transparent;
-  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-  cursor: pointer;
-}
+// .select {
+//   color: #ffffff;
+//   padding: 1em 2em;
+//   // border: 1em solid transparent;
+//   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+//   cursor: pointer;
+// }
 
 .nav-hamburger {
   position: fixed;
@@ -131,8 +120,54 @@ body {
   font-size: 1.1em;
 }
 
-// @media screen and (max-width) {
-//   .banner {
-//
+.select-style {
+  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+  height: 40px;
+  overflow: hidden;
+  width: 330px;
+  background-color: $pink;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+//mobile
+@media (max-width: 350px) {
+  .select-style {
+    width: 300px;
+  }
+  body {
+    background-color: green;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    background-color: blue;
+    margin: 20px;
+  }
+  .select-style {
+    width: 600px;
+  }
+}
+
+
+
+@media (max-width: 480px) and (max-width: 670px) {
+  .select-style {
+    width: 400px;
+  }
+}
+
+
+
+
+
+// @media screen and (max-width: 600px) {
+//   body {
+//     margin:40px;
+//     background-color:yellow;
 //   }
+//
 // }

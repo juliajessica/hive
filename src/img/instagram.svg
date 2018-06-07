@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="81.625" y="12.75" width="15.75" height="16.5" id="rect-1"></rect>
+    </defs>
+    <g id="pattern" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="social-icons" transform="translate(-81.000000, -12.000000)">
+            <g id="instagram">
+                <image x="81.625" y="12.75" width="15.75" height="16.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAnxJREFUaAXtWo1VAjEM9nwuoCPICK7ACjiCjOAsMgKMACPACDACjnB+39nwer0fmqYC9ZH3Ynu9NsnXpG16WD14VNf1Mx4/wFPH3turVzewgLyoquq7Yw2Mn4GP4Fsn2jgTABUrrmEpjYWU7/DEqoLxDJs9mGVJxDCaPOIPY7404znRzXolAC7YUmnKEKpLtZ520wNF0x3Atd1XvAeeMs/gDvJWYJY7OfLdWfOGNjJPUZZ5iLtQBlpDRvR2zL5gjjET0wgLMS/5TJ1KjgWb8i8LACo2hwJlWECkTt7gOBjD8PgC78FCrLMtOswGFfzVCxjHmYyJa/Yxey4rDme8JpazhF8WEAnGY0hDeUCItMhyG6LGuJiwGRK/7pG3Herc1649iXlInQgCuSgtC5MLPhzf0nFSNlDRAuAJ69Ppbuo3KuuhjFDHqDjtfeBF0gNKxezxKvo6quH8ywNkTqQbZPKmdZTnc6UKABQ1HwFEKJRluQxZ5GpDSGy/mVIFwLnXN/7gPyTWWzJ6dIyKVQGApPAEVS24AUv4tc2nUIf/rlO3Alh0JOobwm1TBUCbjd7cQaYFwI2ndfDgOTUd7qQSlE0FGkoB0Hf8U7E5mYMMdVqSAoATxM+RLUKbKZ2mTArWUiqAjvsFDQygN5bg6AsN+qaGYZ0KADqbkNHtGILSKy3G0wgLAI6nJzrh5Nk3WuVYJwNFGlkBiFYuvtbuNGY5+4LVC1aU+aUqmRszyr3jyXzRD1u5AURgzNtFm0rk1Z5B2h1Ahkk0ifgXHgjzcdOMXHjwhh4oGgC3UX4FKPeHbnwR4C/e8wu7Poe6ubP9VxY8Ue4/e8h0uHAq6t9tfgBicmwQMRynEQAAAABJRU5ErkJggg=="></image>
+                <use fill="#454B49" fill-rule="evenodd" xlink:href="#rect-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -17,6 +17,7 @@ $roundImg: 50%;
 //Use rem for Padding & Margin in Grids and Lists
 //Avoid px in Child Elements, use em, rem, percentages, or viewport units (vw) whenever possible.
 //1em = 16px, and 2em = 32px.
+//@mixin 'banner font' : use to make a reusable grouped style - then call it by saying @include 'banner font'
 
 * {
   margin:0;
@@ -48,14 +49,6 @@ body {
   padding:1rem;
   font-family: $mainFont;
 }
-
-// .select {
-//   color: #ffffff;
-//   padding: 1em 2em;
-//   // border: 1em solid transparent;
-//   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-//   cursor: pointer;
-// }
 
 .nav-hamburger {
   position: fixed;
@@ -125,7 +118,7 @@ body {
   // background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
   height: 40px;
   overflow: hidden;
-  width: 1600px;
+  width: 100%;
   background-color: $pink;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -153,9 +146,9 @@ body {
     background-color: green;
     margin: 40px;
   }
-  .select-style {
-    width: 530px;
-  }
+  // .select-style {
+  //   width: 530px;
+  // }
 }
 
 @media (min-width: 700px) and (max-width: 800px) {
@@ -163,9 +156,9 @@ body {
     background-color: red;
     margin: 60px;
   }
-  .select-style {
-    width: 620px;
-  }
+  // .select-style {
+  //   width: 620px;
+  // }
 }
 
 @media (min-width: 801px) and (max-width: 960px) {
@@ -173,9 +166,9 @@ body {
     background-color: orange;
     margin: 60px;
   }
-  .select-style {
-    width: 680px;
-  }
+  // .select-style {
+  //   width: 680px;
+  // }
 }
 
 @media (min-width: 961px) and (max-width: 1060px) {
@@ -192,9 +185,9 @@ body {
     background-color: blue;
     margin: 70px;
   }
-  .select-style {
-    width: 930px;
-  }
+  // .select-style {
+  //   width: 930px;
+  // }
 }
 
 @media (min-width: 1201px) and (max-width: 1399px) {
@@ -202,9 +195,9 @@ body {
     background-color: purple;
     margin: 80px;
   }
-  .select-style {
-    width: 1080px;
-  }
+  // .select-style {
+  //   width: 1080px;
+  // }
 }
 
 @media (min-width: 1400px) and (max-width: 1600px) {
@@ -212,9 +205,9 @@ body {
     background-color: lavender;
     margin: 90px;
   }
-  .select-style {
-    width: 1290px;
-  }
+  // .select-style {
+  //   width: 1290px;
+  // }
 }
 
 @media (min-width: 1601px) and (max-width: 1730px) {
@@ -222,9 +215,9 @@ body {
     background-color: pink;
     margin: 110px;
   }
-  .select-style {
-    width: 1480px;
-  }
+  // .select-style {
+  //   width: 1480px;
+  // }
 }
 
 

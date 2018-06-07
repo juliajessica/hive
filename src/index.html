@@ -24,12 +24,15 @@
     <div style="font-size:30px;cursor:pointer" onclick="openNav()" class="nav-hamburger">&#9776;
     </div>
     <div class="logo">
-      <img src="img/logo-name.png" alt="hive logo">
+      <img src="img/logo-large.png" alt="hive logo">
     </div>
 
-    <div class="banner">
-      <img src="img/banner1000.jpg" alt="hive cowork space">
-    </div>
+    <picture class="banner">
+        <source media="(max-width: 400px)"  srcset="img/splash400.jpeg">
+        <source media="(max-width: 700px)" srcset="img/splash700.jpeg">
+        <source media="(max-width: 1000px)" srcset="img/splash.jpeg 1000w">
+         <img alt="hive cowork space" src="img/splashFull.jpeg" class="banner-img">
+      </picture>
     <div class="copy">
       <h3>Welcome to Hive. This is a space where the creative minds can come together and collaborate and get work done. Bring your colony or just bring yourself and pick out a space that suits you best. Whether you’re a pilates teacher, artist, designer, entrepreneur, you name it — we have the perfect space for you.<h3>
     </div>

@@ -16,7 +16,7 @@ $roundImg: 50%;
 
 @mixin yellow-btn-style {
   background-color: $mustardYellow;
-  font-size: 13px;
+  font-size: 1.2em;
   color: white;
   border-radius: 3px;
   border: 0;
@@ -137,6 +137,7 @@ body {
 
 .select-style {
   // background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+  font-size: 1.2em;
   height: 40px;
   overflow: hidden;
   width: 80%;

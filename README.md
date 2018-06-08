@@ -20,13 +20,6 @@ _This web application is outlined using grid paper and research on best practice
 
 ### <span style="color:#74875d;">Color Schemes</span>
 
-* Dark Purple: #34314b
-* Yellow: #f6c600
-* Light Pink: #f798aa
-* Baby Blue: #3baef0
-* Cajun Red: #f24641
-* White: #fff
-
 ![Screenshot](wireframe/colorPalette.png)
 
 ### <span style="color:#74875d;">Typography</span>

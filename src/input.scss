@@ -25,6 +25,13 @@ $roundImg: 50%;
   text-transform: uppercase;
 }
 
+@mixin mediaQuerie($arg){
+	@media screen and (max-width: $arg){
+		@content; //all styles from @include will naturally be added
+  }
+}
+
+
 
 //Set Document Font Size with Percentages
 //Only Modify font-size from the Lowest Parent
@@ -195,18 +202,20 @@ footer {
 
 .join-us-box {
   font-family: $mainFont;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 3em;
-  width: 7em;
-  font-size: 6em;
+  top: 45%;
+  left: 45%;
+  transform: translate(-40%, -40%);
+  height: 4em;
+  width: 70%;
+  font-size: 8em;
   color: white;
-  border: 10px solid white;
+  border: 30px solid white;
   background-color: Transparent;
 }
-
 
 
 
@@ -218,16 +227,11 @@ footer {
     margin: 0 40px;
   }
   .join-us-box {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     top: 26%;
-    height: 1.6em;
-    width: 5.6em;
-    font-size: 4em;
-    border: 6.5px solid white;
+    left: 45%;
+    height: 1em;
+    font-size: 4.2em;
+    border: 9px solid white;
   }
 }
 
@@ -237,35 +241,25 @@ footer {
     margin: 0 40px;
   }
   .join-us-box {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    top: 27%;
-    height: 2em;
-    width: 6em;
-    font-size: 4.5em;
-    border: 8px solid white;
+    top: 29%;
+    left: 45%;
+    height: 1.6em;
+    font-size: 4.9em;
+    border: 12px solid white;
   }
 }
 
 @media (min-width: 560px) and (max-width: 700px) {
   .page {
-    background-color: green;
+    background-color: gold;
     margin: 0 40px;
   }
   .join-us-box {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    top: 30%;
-    height: 2em;
-    width: 6em;
+    top: 29%;
+    left: 45%;
+    height: 1.6em;
     font-size: 4.5em;
-    border: 8px solid white;
+    border: 13px solid white;
   }
 }
 
@@ -275,16 +269,11 @@ footer {
     margin: 0 60px;
   }
   .join-us-box {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    top: 35%;
-    height: 2em;
-    width: 6em;
-    font-size: 4.5em;
-    border: 9px solid white;
+    top: 31%;
+    left: 45%;
+    height: 1.9em;
+    font-size: 5.2em;
+    border: 15px solid white;
   }
 }
 
@@ -294,18 +283,11 @@ footer {
     margin: 0 60px;
   }
   .join-us-box {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    top: 38%;
-    height: 2em;
-    width: 6em;
-    font-size: 5em;
-    color: white;
-    border: 10px solid white;
-    background-color: Transparent;
+    top: 34%;
+    left: 45%;
+    height: 2.3em;
+    font-size: 5.8em;
+    border: 17px solid white;
   }
 }
 
@@ -318,15 +300,11 @@ footer {
     width: 820px;
   }
   .join-us-box {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    top: 40%;
-    height: 2em;
-    width: 6em;
-    font-size: 5em;
+    top: 36%;
+    left: 45%;
+    height: 2.6em;
+    font-size: 6.2em;
+    border: 18px solid white;
   }
 }
 
@@ -336,19 +314,12 @@ footer {
     margin: 0 70px;
   }
   .join-us-box {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    top: 44%;
-    // left: 48%;
-    // transform: translate(-42%, -44%);
-    height: 2.5em;
-    width: 6.5em;
-    font-size: 5.5em;
+    top: 38%;
+    left: 45%;
+    height: 2.9em;
+    font-size: 6.5em;
+    border: 19px solid white;
   }
-
 }
 
 @media (min-width: 1201px) and (max-width: 1399px) {
@@ -357,18 +328,12 @@ footer {
     margin: 0 80px;
   }
   .join-us-box {
-    top: 45%;
+    top: 40%;
     left: 45%;
-    transform: translate(-40%, -40%);
-    height: 2.8em;
-    width: 6.8em;
-    font-size: 6em;
-    color: white;
-    border: 10px solid white;
-    background-color: Transparent;
+    height: 3.2em;
+    font-size: 7em;
+    border: 20px solid white;
   }
-
-
 }
 
 @media (min-width: 1400px) and (max-width: 1600px) {
@@ -376,12 +341,55 @@ footer {
     background-color: lavender;
     margin: 0 90px;
   }
+  .join-us-box {
+    top: 43%;
+    left: 45%;
+    height: 3.4em;
+    font-size: 7.6em;
+    border: 23px solid white;
+  }
 }
 
-@media (min-width: 1601px) and (max-width: 1730px) {
+@media (min-width: 1601px) and (max-width: 1999px) {
   .page {
-    background-color: pink;
+    background-color: yellow;
+    margin: 0 90px;
+  }
+  .join-us-box {
+    left: 45%;
+    height: 3.8em;
+    font-size: 7.8em;
+    border: 25px solid white;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2499px) {
+  .page {
+    background-color: #8aa5d1;
+    margin: 0 110px;
+  }
+  .join-us-box {
+    left: 45%;
+    height: 4em;
+    width: 70%;
+  }
+
+
+}
+
+@media (min-width: 2500px) and (max-width: 2700px) {
+  .page {
+    background-color: orange;
     margin: 0 110px;
   }
 
+
 }
+
+// @media (min-width: 2699px) and (max-width: 3500px) {
+//   .page {
+//     background-color: pink;
+//     margin: 0 110px;
+//   }
+//
+// }

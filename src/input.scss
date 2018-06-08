@@ -86,7 +86,7 @@ body {
 /*navbar*/
 .nav-hamburger {
   position: absolute;
-  padding:30px 40px 20px 0;
+  padding: 30px 40px 40px 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -373,6 +373,7 @@ footer {
     font-size: 7em;
     border: 20px solid white;
   }
+
 }
 
 @media (min-width: 1400px) and (max-width: 1600px) {

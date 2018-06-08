@@ -290,6 +290,13 @@ footer {
   margin: 2em;
 }
 
+////about page
+
+.time-btn {
+  @include yellow-btn-style;
+  padding: 9px 20px;
+  margin: .3em;
+}
 
 
 
@@ -300,7 +307,7 @@ footer {
 
 @media (min-width: 100px) and (max-width: 449px) {
   .page {
-    background-color: grey;
+    // background-color: grey;
     margin: 0 40px;
   }
   .join-us-box {
@@ -317,7 +324,7 @@ footer {
 
 @media (min-width: 450px) and (max-width: 559px) {
   .page {
-    background-color: skyblue;
+    // background-color: skyblue;
     margin: 0 40px;
   }
   .join-us-box {
@@ -334,7 +341,7 @@ footer {
 
 @media (min-width: 560px) and (max-width: 700px) {
   .page {
-    background-color: gold;
+    // background-color: gold;
     margin: 0 60px;
   }
   .join-us-box {
@@ -351,7 +358,7 @@ footer {
 
 @media (min-width: 700px) and (max-width: 800px) {
   .page {
-    background-color: red;
+    // background-color: red;
     margin: 0 60px;
   }
   .join-us-box {
@@ -365,7 +372,7 @@ footer {
 
 @media (min-width: 801px) and (max-width: 960px) {
   .page {
-    background-color: orange;
+    // background-color: orange;
     margin: 0 60px;
   }
   .join-us-box {
@@ -379,7 +386,7 @@ footer {
 
 @media (min-width: 961px) and (max-width: 1060px) {
   .page {
-    background-color: green;
+    // background-color: green;
     margin: 0 60px;
   }
   .select-style {
@@ -396,7 +403,7 @@ footer {
 
 @media (min-width: 1061px) and (max-width: 1200px) {
   .page {
-    background-color: blue;
+    // background-color: blue;
     margin: 0 70px;
   }
   .join-us-box {
@@ -410,7 +417,7 @@ footer {
 
 @media (min-width: 1201px) and (max-width: 1399px) {
   .page {
-    background-color: purple;
+    // background-color: purple;
     margin: 0 80px;
   }
   .join-us-box {
@@ -425,7 +432,7 @@ footer {
 
 @media (min-width: 1400px) and (max-width: 1600px) {
   .page {
-    background-color: lavender;
+    // background-color: lavender;
     margin: 0 90px;
   }
   .join-us-box {
@@ -439,7 +446,7 @@ footer {
 
 @media (min-width: 1601px) and (max-width: 1999px) {
   .page {
-    background-color: yellow;
+    // background-color: yellow;
     margin: 0 90px;
   }
   .join-us-box {
@@ -448,12 +455,16 @@ footer {
     font-size: 7.8em;
     border: 25px solid white;
   }
+  //
+  // .img-responsive {
+  //   background-image: url("img/mail.svg");
+  // }
 
 }
 
 @media (min-width: 2000px) and (max-width: 2499px) {
   .page {
-    background-color: #8aa5d1;
+    // background-color: #8aa5d1;
     margin: 0 110px;
   }
   .join-us-box {
@@ -462,15 +473,13 @@ footer {
     width: 70%;
   }
 
-
 }
 
 @media (min-width: 2500px) and (max-width: 2700px) {
   .page {
-    background-color: orange;
+    // background-color: orange;
     margin: 0 110px;
   }
-
 
 }
 

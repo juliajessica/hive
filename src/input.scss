@@ -143,14 +143,13 @@ body {
 
 .copy {
   padding-top: 3em;
-  font-size: 1.1em;
   padding-bottom: 1em;
   // background-color: mix($darkGrey, $whiteColor);
 }
 
 .select-style {
   // background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
-  font-size: 1.2em;
+  font-size: 1em;
   height: 40px;
   overflow: hidden;
   width: 80%;
@@ -251,6 +250,45 @@ footer {
   }
 }
 
+.image-responsive {
+  flex-shrink: 0;
+}
+
+///amenities page
+.grid-copy {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-auto-flow: dense;
+  grid-gap: 2em;
+  padding: 1em;
+  justify-content: center;
+  padding-bottom: 3em;
+
+  .block {
+    padding-top: 20px;
+  }
+}
+
+.honeycomb1 {
+  position: absolute;
+  top:2;
+  right:0;
+  left: 5;
+  padding: 10px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 2em;
+}
+
+.honeycomb2 {
+  position: absolute;
+  bottom: 4;
+  left:3;
+  padding: 10px;
+  // padding:30px 40px 20px 0;
+  margin: 2em;
+}
 
 
 
@@ -272,11 +310,14 @@ footer {
     font-size: 4.2em;
     border: 9px solid white;
   }
+  .grid-copy {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
 }
 
 @media (min-width: 450px) and (max-width: 559px) {
   .page {
-    background-color: black;
+    background-color: skyblue;
     margin: 0 40px;
   }
   .join-us-box {
@@ -286,12 +327,15 @@ footer {
     font-size: 4.9em;
     border: 12px solid white;
   }
+  .grid-copy {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
 }
 
 @media (min-width: 560px) and (max-width: 700px) {
   .page {
     background-color: gold;
-    margin: 0 40px;
+    margin: 0 60px;
   }
   .join-us-box {
     top: 29%;
@@ -299,6 +343,9 @@ footer {
     height: 1.6em;
     font-size: 4.5em;
     border: 13px solid white;
+  }
+  .grid-copy {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
 
@@ -401,6 +448,7 @@ footer {
     font-size: 7.8em;
     border: 25px solid white;
   }
+
 }
 
 @media (min-width: 2000px) and (max-width: 2499px) {
@@ -436,39 +484,7 @@ footer {
 
 
 
-// //////Amenitites PAGE
-.grid-copy {
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  grid-gap: 3em;
-  padding: 1em;
-  justify-content: center;
-  padding-bottom: 3em;
-  .block {
-    padding-top: 20px;
-  }
-}
-
-.honeycomb1 {
-  position: absolute;
-  top:2;
-  right:0;
-  left: 5;
-  padding: 10px 70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin: 2em;
-}
-
-.honeycomb2 {
-  position: absolute;
-  bottom: 4;
-  left:3;
-  padding: 10px;
-  // padding:30px 40px 20px 0;
-  margin: 2em;
-}
+////////Amenitites honeycomb images
 
 #categories{
   overflow:hidden;
@@ -520,7 +536,7 @@ footer {
   visibility:visible;
 }
 
-#categories li > .hex-img{
+#categories li > .hex-img {
   position: absolute;
   width:100%;
   height:100%;
@@ -530,6 +546,7 @@ footer {
   -ms-transform: skewY(-30deg) rotate(60deg);
   transform: skewY(-30deg) rotate(60deg);
 	-webkit-backface-visibility:hidden;
+
 }
 
 #categories .hex-img h1, #categories div p{

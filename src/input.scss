@@ -435,6 +435,13 @@ footer {
 
 
 
+//////Amenitites PAGE
+.grid-copy {
+  display:grid;
+  grid-template-columns: repeat(auto-filt, minmax(500px, 1fr);
+  grid-gap: 1em;
+  justify-content: center;
+}
 
 #categories{
   overflow:hidden;
@@ -503,7 +510,6 @@ footer {
   padding:0 5%;
   background-color: $pink;
   font-family: $mainFont;
-
   -webkit-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
   -ms-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
   transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
@@ -511,9 +517,8 @@ footer {
 
 #categories li h1{
   bottom:110%;
-  font-style:italic;
   font-weight:normal;
-  font-size:1.5em;
+  font-size:2em;
   padding-top:100%;
   padding-bottom:100%;
 }
@@ -533,6 +538,13 @@ footer {
 	padding-top:50%;
 	top:110%;
 	padding-bottom:50%;
+}
+
+.hex-img {
+  h1, p {
+    text-align: center;
+  }
+
 }
 
 

@@ -42,13 +42,12 @@ $roundImg: 50%;
 }
 
 body {
-  margin: 0 100px;
   font-family: $mainFont;
   font-size: 100%;
   max-width: 1700px;
 }
 
-.banner {
+.banner-homepage {
   height: 400px;
   overflow: hidden;
   display: flex;
@@ -57,7 +56,7 @@ body {
   background-size: contain, cover;
 }
 
-.banner img {
+.banner-homepage img {
   width:100%;
   flex-shrink: 0;
 }
@@ -71,13 +70,11 @@ body {
 /*navbar*/
 .nav-hamburger {
   position: absolute;
-  padding-top: 50px;
-  top: 0;
-  left: 1;
-  padding-right: 20px;
+  padding:30px 40px 20px 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin: 1em;
 }
 
 .sidenav {
@@ -109,7 +106,7 @@ body {
   transition: 0.5s;
 }
 
-.about:hover, .contact:hover, .amenities:hover {
+.home:hover, .about:hover, .contact:hover, .amenities:hover {
   color: $darkGrey;
 }
 
@@ -190,8 +187,11 @@ footer {
 
 
 /////CONTACT
+
 .banner-join img {
+  margin: 0;
   padding-top: 1em;
+  width: 100%;
 }
 
 .join-us-box {
@@ -207,7 +207,7 @@ footer {
 
 //mobile
 @media (min-width: 200px) and (max-width: 700px) {
-  body {
+  .page {
     background-color: green;
     margin: 0 40px;
   }
@@ -217,7 +217,7 @@ footer {
 }
 
 @media (min-width: 700px) and (max-width: 800px) {
-  body {
+  .page {
     background-color: red;
     margin: 0 60px;
   }
@@ -227,7 +227,7 @@ footer {
 }
 
 @media (min-width: 801px) and (max-width: 960px) {
-  body {
+  .page {
     background-color: orange;
     margin: 0 60px;
   }
@@ -237,7 +237,7 @@ footer {
 }
 
 @media (min-width: 961px) and (max-width: 1060px) {
-  body {
+  .page {
     background-color: green;
     margin: 0 60px;
   }
@@ -246,7 +246,7 @@ footer {
   }
 }
 @media (min-width: 1061px) and (max-width: 1200px) {
-  body {
+  .page {
     background-color: blue;
     margin: 0 70px;
   }
@@ -256,7 +256,7 @@ footer {
 }
 
 @media (min-width: 1201px) and (max-width: 1399px) {
-  body {
+  .page {
     background-color: purple;
     margin: 0 80px;
   }
@@ -266,7 +266,7 @@ footer {
 }
 
 @media (min-width: 1400px) and (max-width: 1600px) {
-  body {
+  .page {
     background-color: lavender;
     margin: 0 90px;
   }
@@ -276,7 +276,7 @@ footer {
 }
 
 @media (min-width: 1601px) and (max-width: 1730px) {
-  body {
+  .page {
     background-color: pink;
     margin: 0 110px;
   }

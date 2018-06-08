@@ -44,7 +44,7 @@ $roundImg: 50%;
 body {
   font-family: $mainFont;
   font-size: 100%;
-  max-width: 1700px;
+  // max-width: 1700px;
 }
 
 .banner-homepage {
@@ -74,7 +74,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 1em;
+  margin: 2em;
 }
 
 .sidenav {
@@ -186,7 +186,7 @@ footer {
 }
 
 
-/////CONTACT PAGE
+//////////////////CONTACT PAGE
 .banner-join img {
   margin: 0;
   padding-top: 1em;
@@ -194,12 +194,13 @@ footer {
 }
 
 .join-us-box {
+  font-family: $mainFont;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 2em;
-  width: 6em;
+  height: 3em;
+  width: 7em;
   font-size: 6em;
   color: white;
   border: 10px solid white;
@@ -209,7 +210,7 @@ footer {
 
 
 
-//mobile
+////////////////////////mobile
 @media (min-width: 200px) and (max-width: 700px) {
   .page {
     background-color: green;

@@ -166,13 +166,16 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-flow: dense;
   grid-gap: 10px;
-  align-self: center;
-  align-content: center;
-  margin: auto;
+  // justify-content: center;
+  // align-items: center;
+  // align-content: center;
+  // justify-content: center;
+  // margin: auto;
 }
 
 .img-flex {
   border-radius: $roundImg;
+  justify-self: center;
 }
 
 .yellow-btn {

@@ -181,6 +181,7 @@ body {
 }
 
 .social-icons {
+  padding-top: 4em;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -227,25 +228,24 @@ footer {
 }
 
 .page {
-
   h1 {
     padding: 1em 0;
-    }
+    font-size: 35px;
+  }
   .copy {
     line-height: 3em;
     padding-left: 20px;
   }
-  // .contact-flex {
-  //   display: flex;
-  //   flex-direction: row;
-  //   justify-content: flex-start;
-
-  // }
-  img {
+  .travel-icons {
     height:40px;
     width:auto;
   }
+}
 
+.address {
+  h1{
+    font-size: 30px;
+  }
 }
 
 

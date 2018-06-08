@@ -24,12 +24,21 @@ $roundImg: 50%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   text-transform: uppercase;
 }
+//
+// @mixin mediaQueries($arg...){
+//   @if length($arg) == 1 {
+//   	@media screen and (max-width: nth($arg, 1)){
+//   		@content;
+//     }
+//   }
+//
+//   @if length($arg) == 2 {
+//   	@media screen and (max-width: nth($arg, 1)) and (min-width: nth($arg, 2)){
+//   		@content;
+//     }
+//   }
+// }
 
-@mixin mediaQuerie($arg){
-	@media screen and (max-width: $arg){
-		@content; //all styles from @include will naturally be added
-  }
-}
 
 
 
@@ -216,6 +225,30 @@ footer {
   border: 30px solid white;
   background-color: Transparent;
 }
+
+.page {
+
+  h1 {
+    padding: 1em 0;
+    }
+  .copy {
+    line-height: 3em;
+    padding-left: 20px;
+  }
+  // .contact-flex {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: flex-start;
+
+  // }
+  img {
+    height:40px;
+    width:auto;
+  }
+
+}
+
+
 
 
 

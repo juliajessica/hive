@@ -22,7 +22,8 @@ module.exports = {
      { from: 'src/img', to: 'img'},
      { from: 'src/about.html', to: ''},
      { from: 'src/amenities.html', to: ''},
-     { from: 'src/contact.html', to: ''}
+     { from: 'src/contact.html', to: ''},
+     { from: 'src/book.html', to: ''}
     ]),
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(['dist']),

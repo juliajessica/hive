@@ -242,6 +242,9 @@ footer {
     height:40px;
     width:auto;
   }
+  p {
+    font-size: 1.2em;
+  }
 }
 
 .address {
@@ -298,8 +301,25 @@ footer {
   margin: .3em;
 }
 
+p.quote {
+  font-size: 2.5em;
+  font-family: $narrowFont;
+}
+
+.flex-rectangle-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  img {
+    width: 370px;
+    height:auto;
+  }
+}
 
 
+
+///book page
 
 
 

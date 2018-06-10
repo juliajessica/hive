@@ -28,7 +28,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Title Words',
+      title: 'Hive Co-Workspace',
       template: './src/index.html',
       inject: 'body'
     }),

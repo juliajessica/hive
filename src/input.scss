@@ -131,7 +131,6 @@ body {
 }
 
 .select-style {
-  // background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
   font-size: 1em;
   height: 40px;
   overflow: hidden;
@@ -183,26 +182,23 @@ footer {
   flex-direction: column;
   align-items: center;
   padding-bottom: 37px;
-  // justify-content: center;
 }
 
 
 //////////////////CONTACT PAGE
 .banner-join {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   height: 460px;
-  width: 100%;
   background-image: url("img/join-img.jpeg");
+  background-size: cover;
 }
 
 .join-us-box {
   font-family: $mainFont;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   position: absolute;
-  top: 45%;
-  left: 45%;
-  transform: translate(-40%, -40%);
   height: 4em;
   width: 70%;
   font-size: 8em;
@@ -323,15 +319,9 @@ footer {
 ////////////////////////mobile
 
 @media (min-width: 300px) and (max-width: 449px) {
-  .page {
-    // background-color: grey;
-    margin: 0 40px;
-  }
   .join-us-box {
-    top: 26%;
-    left: 45%;
-    height: 1em;
-    font-size: 4.2em;
+    height: 1.7em;
+    font-size: 3.2em;
     border: 9px solid white;
   }
   .grid-copy {
@@ -340,38 +330,24 @@ footer {
   .banner-join {
     height: 200px;
   }
-
-
 }
 
 @media (min-width: 450px) and (max-width: 559px) {
-  .page {
-    // background-color: skyblue;
-    margin: 0 40px;
-  }
   .join-us-box {
-    top: 24%;
-    left: 45%;
-    height: 4.6rem;
-    font-size: 2rem;
+    height: 5.6rem;
+    font-size: 3rem;
     border: 7px solid white;
   }
   .grid-copy {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
   .banner-join {
-    height: 200px;
+    height: 250px;
   }
 }
 
 @media (min-width: 560px) and (max-width: 700px) {
-  .page {
-    // background-color: gold;
-    margin: 0 60px;
-  }
   .join-us-box {
-    top: 29%;
-    left: 45%;
     height: 1.6em;
     font-size: 4.5em;
     border: 13px solid white;
@@ -386,12 +362,9 @@ footer {
 
 @media (min-width: 700px) and (max-width: 800px) {
   .page {
-    // background-color: red;
     margin: 0 60px;
   }
   .join-us-box {
-    top: 31%;
-    left: 45%;
     height: 1.9em;
     font-size: 5.2em;
     border: 15px solid white;
@@ -400,12 +373,9 @@ footer {
 
 @media (min-width: 801px) and (max-width: 960px) {
   .page {
-    // background-color: orange;
     margin: 0 60px;
   }
   .join-us-box {
-    top: 34%;
-    left: 45%;
     height: 2.3em;
     font-size: 5.8em;
     border: 17px solid white;
@@ -413,16 +383,10 @@ footer {
 }
 
 @media (min-width: 961px) and (max-width: 1060px) {
-  .page {
-    // background-color: green;
-    margin: 0 60px;
-  }
   .select-style {
     width: 820px;
   }
   .join-us-box {
-    top: 36%;
-    left: 45%;
     height: 2.6em;
     font-size: 6.2em;
     border: 18px solid white;
@@ -431,12 +395,9 @@ footer {
 
 @media (min-width: 1061px) and (max-width: 1200px) {
   .page {
-    // background-color: blue;
     margin: 0 70px;
   }
   .join-us-box {
-    top: 38%;
-    left: 45%;
     height: 2.9em;
     font-size: 6.5em;
     border: 19px solid white;
@@ -448,12 +409,9 @@ footer {
 
 @media (min-width: 1201px) and (max-width: 1399px) {
   .page {
-    // background-color: purple;
     margin: 0 80px;
   }
   .join-us-box {
-    top: 40%;
-    left: 45%;
     height: 3.2em;
     font-size: 7em;
     border: 20px solid white;
@@ -465,13 +423,7 @@ footer {
 }
 
 @media (min-width: 1400px) and (max-width: 1600px) {
-  .page {
-    // background-color: lavender;
-    margin: 0 90px;
-  }
   .join-us-box {
-    top: 43%;
-    left: 45%;
     height: 3.4em;
     font-size: 7.6em;
     border: 23px solid white;
@@ -482,10 +434,6 @@ footer {
 }
 
 @media (min-width: 1601px) and (max-width: 1999px) {
-  .page {
-    // background-color: yellow;
-    margin: 0 90px;
-  }
   .join-us-box {
     left: 45%;
     height: 3.8em;
@@ -499,8 +447,6 @@ footer {
 
 @media (min-width: 2000px) and (max-width: 2499px) {
   .page {
-    // background-color: #8aa5d1;
-    margin: 0 110px;
   }
   .join-us-box {
     left: 45%;
@@ -515,23 +461,12 @@ footer {
 
 @media (min-width: 2500px) and (max-width: 2700px) {
   .page {
-    // background-color: orange;
     margin: 0 110px;
   }
   .banner-join {
     height: 700px;
   }
-
 }
-
-// @media (min-width: 2699px) and (max-width: 3500px) {
-//   .page {
-//     background-color: pink;
-//     margin: 0 110px;
-//   }
-//
-// }
-
 
 ////////Amenitites honeycomb images
 

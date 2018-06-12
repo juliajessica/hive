@@ -319,6 +319,9 @@ footer {
 ////////////////////////mobile
 
 @media (min-width: 300px) and (max-width: 449px) {
+  .page {
+    margin: 0 30px;
+  }
   .join-us-box {
     height: 1.7em;
     font-size: 3.2em;
@@ -333,6 +336,9 @@ footer {
 }
 
 @media (min-width: 450px) and (max-width: 559px) {
+  .page {
+    margin: 0 30px;
+  }
   .join-us-box {
     height: 5.6rem;
     font-size: 3rem;
@@ -347,6 +353,9 @@ footer {
 }
 
 @media (min-width: 560px) and (max-width: 700px) {
+  .page {
+    margin: 0 60px;
+  }
   .join-us-box {
     height: 1.6em;
     font-size: 4.5em;
@@ -383,6 +392,9 @@ footer {
 }
 
 @media (min-width: 961px) and (max-width: 1060px) {
+  .page {
+    margin: 0 65px;
+  }
   .select-style {
     width: 820px;
   }
@@ -423,6 +435,9 @@ footer {
 }
 
 @media (min-width: 1400px) and (max-width: 1600px) {
+  .page {
+    margin: 0 90px;
+  }
   .join-us-box {
     height: 3.4em;
     font-size: 7.6em;
@@ -434,8 +449,10 @@ footer {
 }
 
 @media (min-width: 1601px) and (max-width: 1999px) {
+  .page {
+    margin: 0 95px;
+  }
   .join-us-box {
-    left: 45%;
     height: 3.8em;
     font-size: 7.8em;
     border: 25px solid white;
@@ -447,6 +464,7 @@ footer {
 
 @media (min-width: 2000px) and (max-width: 2499px) {
   .page {
+    margin: 0 100px;
   }
   .join-us-box {
     left: 45%;

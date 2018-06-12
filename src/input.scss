@@ -12,8 +12,7 @@ $pink: #FFD4C4;
 $roundImg: 50%;
 
 
-//mixin
-
+//mixins
 @mixin yellow-btn-style {
   background-color: $mustardYellow;
   font-size: 1.2em;
@@ -24,23 +23,6 @@ $roundImg: 50%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   text-transform: uppercase;
 }
-//
-// @mixin mediaQueries($arg...){
-//   @if length($arg) == 1 {
-//   	@media screen and (max-width: nth($arg, 1)){
-//   		@content;
-//     }
-//   }
-//
-//   @if length($arg) == 2 {
-//   	@media screen and (max-width: nth($arg, 1)) and (min-width: nth($arg, 2)){
-//   		@content;
-//     }
-//   }
-// }
-
-
-
 
 //Set Document Font Size with Percentages
 //Only Modify font-size from the Lowest Parent
@@ -289,7 +271,6 @@ footer {
   bottom: 4;
   left:3;
   padding: 10px;
-  // padding:30px 40px 20px 0;
   margin: 2em;
 }
 
@@ -660,9 +641,7 @@ footer {
   h1, p {
     text-align: center;
   }
-
 }
-
 
 /* HOVER EFFECT  */
 

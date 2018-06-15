@@ -4,6 +4,8 @@
 
 ## <span style="color:#74875d;">Description</span>
 
+### Link to live application: https://juliajessica.github.io/hive/
+
 _This web application is outlined using grid paper and research on best practices for User Interfaces. The final wire framing and prototype production was created using Sketch._
 
 | Mobile Wire-framing and Prototypes in Sketch |

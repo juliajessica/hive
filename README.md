@@ -1,4 +1,4 @@
-## _<center>Hive - a place for people to work remotely</center>_
+ _<p align="center">Hive - a place for people to work remotely</p>_
 
 #### _**<p align="center">By: Julia Sheremet</p>**_
 
@@ -49,6 +49,11 @@ _This web application is outlined using grid paper and research on best practice
 
 * Grid Paper and Pencil
 * Sketch
+
+* HTML
+* CSS
+* JavaScript
+* Webpack
 
 ### <span style="color:#74875d;">License</span>
 

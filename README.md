@@ -1,4 +1,4 @@
- _<p align="center">Hive - a place for people to work remotely</p>_
+# _<p align="center">Hive - a place for people to work remotely</p>_
 
 #### _**<p align="center">By: Julia Sheremet</p>**_
 

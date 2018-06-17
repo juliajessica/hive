@@ -1,6 +1,11 @@
-# _<p align="center">Julia Sheremet</p>_
-
 ## _Hive - a place for people to work remotely_
+
+#### _**<p align="center">By: Julia Sheremet</p>**_
+
+<p align="center">  
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+<a href="https://github.com/RichardLitt/standard-readme"><img src="https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square"></a>
+</p>
 
 ## <span style="color:#74875d;">Description</span>
 

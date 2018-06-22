@@ -42,7 +42,10 @@ $roundImg: 50%;
 body {
   font-family: $mainFont;
   font-size: 100%;
-  // max-width: 1700px;
+  max-width: 1300px;
+  margin: auto;
+  display: block;
+
 }
 
 .banner-homepage {
@@ -50,13 +53,13 @@ body {
   overflow: hidden;
   display: flex;
   align-items: center;
-  margin: auto;
   background-size: contain, cover;
 }
 
 .banner-homepage img {
   width:100%;
   flex-shrink: 0;
+  align-self: center;
 }
 
 .form {
@@ -71,8 +74,8 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   margin: 0;
-  padding-left: 10px;
-  left: 0;
+  padding-left: 100px;
+  left: 2;
   top: 60px;
 }
 

@@ -42,13 +42,13 @@ $roundImg: 50%;
 body {
   font-family: $mainFont;
   font-size: 100%;
-  max-width: 1300px;
+  max-width: 1450px;
   margin: auto;
   display: block;
 }
 
 .banner-homepage {
-  height: 500px;
+  height: 540px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -148,7 +148,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-flow: dense;
-  grid-gap: 10px;
+  grid-gap:8px;
 
   img {
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
@@ -221,6 +221,7 @@ footer {
 }
 
 .page {
+  margin-top: 2rem;
   h1 {
     padding: .2em 0;
     font-size: 35px;
@@ -342,7 +343,7 @@ footer {
 
 @media (min-width: 300px) and (max-width: 449px) {
   .page {
-    margin: 0 30px;
+    margin: 2rem 30px;
   }
   .join-us-box {
     height: 1.7em;
@@ -359,7 +360,7 @@ footer {
 
 @media (min-width: 450px) and (max-width: 559px) {
   .page {
-    margin: 0 30px;
+    margin: 2rem 30px;
   }
   .join-us-box {
     height: 5.6rem;
@@ -376,7 +377,7 @@ footer {
 
 @media (min-width: 560px) and (max-width: 700px) {
   .page {
-    margin: 0 60px;
+    margin: 2rem 60px;
   }
   .join-us-box {
     height: 1.6em;
@@ -400,7 +401,7 @@ footer {
 
 @media (min-width: 700px) and (max-width: 800px) {
   .page {
-    margin: 0 60px;
+    margin: 2rem 60px;
   }
   .join-us-box {
     height: 1.9em;
@@ -412,7 +413,7 @@ footer {
 
 @media (min-width: 801px) and (max-width: 960px) {
   .page {
-    margin: 0 60px;
+    margin: 2rem 60px;
   }
   .join-us-box {
     height: 2.3em;
@@ -423,7 +424,7 @@ footer {
 
 @media (min-width: 961px) and (max-width: 1060px) {
   .page {
-    margin: 0 65px;
+    margin: 2rem 65px;
   }
   .select-style {
     width: 820px;
@@ -437,7 +438,7 @@ footer {
 
 @media (min-width: 1061px) and (max-width: 1200px) {
   .page {
-    margin: 0 70px;
+    margin: 2rem 70px;
   }
   .join-us-box {
     height: 2.9em;
@@ -451,7 +452,7 @@ footer {
 
 @media (min-width: 1201px) and (max-width: 1399px) {
   .page {
-    margin: 0 80px;
+    margin: 2rem 80px;
   }
   .join-us-box {
     height: 3.2em;
@@ -465,7 +466,7 @@ footer {
 
 @media (min-width: 1400px) and (max-width: 1600px) {
   .page {
-    margin: 0 90px;
+    margin: 2rem 90px;
   }
   .join-us-box {
     height: 3.4em;
@@ -484,7 +485,7 @@ footer {
 
 @media (min-width: 1601px) and (max-width: 1999px) {
   .page {
-    margin: 0 95px;
+    margin: 2rem 95px;
   }
   .join-us-box {
     height: 3.8em;
@@ -503,7 +504,7 @@ footer {
 
 @media (min-width: 2000px) and (max-width: 2499px) {
   .page {
-    margin: 0 100px;
+    margin: 2rem 100px;
   }
   .join-us-box {
     left: 45%;
@@ -523,7 +524,7 @@ footer {
 
 @media (min-width: 2500px) and (max-width: 2700px) {
   .page {
-    margin: 0 110px;
+    margin: 2rem 110px;
   }
   .banner-join {
     height: 700px;

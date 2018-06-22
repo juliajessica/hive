@@ -1,4 +1,4 @@
-##Handwritten Planning on Graph-paper
+## Handwritten Planning on Graph-paper
 
 | Sketch Mobile  | Sketch Tablet and Desktop | Planning |
 | ------------- | ------------- | ------------- |

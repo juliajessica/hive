@@ -274,6 +274,7 @@ footer {
   margin: 2em;
 }
 
+
 ////about page
 
 .time-btn {
@@ -311,10 +312,6 @@ footer {
       box-shadow: 0 19px 38px rgba(0,0,0,0.30), 8px 9px 12px rgba(0, 0, 0, 0.22);
       justify-self: flex-end;
     }
-
-    // img:hover {
-    //   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    // }
   }
 }
 
@@ -374,6 +371,12 @@ footer {
   .banner-join {
     height: 300px;
   }
+  #categories li .hex-img:hover p{
+    top:50%;
+    font-size: 9px;
+    padding-top: 5%;
+    padding-bottom:10%;
+  }
 }
 
 
@@ -412,6 +415,11 @@ footer {
     font-size: 6.2em;
     border: 18px solid white;
   }
+  // #categories > li{
+  //   .hex-img {
+  //     background-color: black;
+  //   }
+  // }
 }
 
 @media (min-width: 1061px) and (max-width: 1200px) {
@@ -564,6 +572,8 @@ footer {
 #categories li * {
   position:absolute;
   visibility:visible;
+  display: flex;
+  justify-content: center;
 }
 
 #categories li > .hex-img {
@@ -590,9 +600,9 @@ footer {
 
 
 #categories li h1{
-  bottom:110%;
+  bottom:70%;
   font-weight:normal;
-  font-size:2em;
+  font-size:1.5em;
   padding-top:100%;
   padding-bottom:100%;
 }
@@ -609,9 +619,7 @@ footer {
 }
 
 #categories li p{
-	padding-top:50%;
-	top:110%;
-	padding-bottom:50%;
+	top:150%;
 }
 
 .hex-img {
@@ -624,10 +632,11 @@ footer {
 
 #categories li .hex-img:hover h1 {
   bottom:50%;
-  padding-bottom:10%;
+  padding-bottom:3%;
 }
 
 #categories li .hex-img:hover p{
   top:50%;
-  padding-top:10%;
+  padding-top: 3%;
+  padding-bottom:10%;
 }

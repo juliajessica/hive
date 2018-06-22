@@ -142,7 +142,7 @@ body {
 }
 
 .circle-img {
-  height: 100%;
+  height:70%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-flow: dense;
@@ -213,7 +213,7 @@ footer {
     font-size: 35px;
   }
   .copy {
-    line-height: 3em;
+    // line-height: 3em;
     padding-left: 20px;
   }
   .travel-icons {
@@ -452,6 +452,11 @@ footer {
   .banner-join {
     height: 700px;
   }
+  .flex-rectangle-imgs {
+    img {
+      width: 60%;
+    }
+  }
 }
 
 @media (min-width: 1601px) and (max-width: 1999px) {
@@ -465,6 +470,11 @@ footer {
   }
   .banner-join {
     height: 700px;
+  }
+  .flex-rectangle-imgs {
+    img {
+      width: 60%;
+    }
   }
 }
 
@@ -480,6 +490,11 @@ footer {
   .banner-join {
     height: 700px;
   }
+  .flex-rectangle-imgs {
+    img {
+      width: 60%;
+    }
+  }
 
 }
 
@@ -489,6 +504,11 @@ footer {
   }
   .banner-join {
     height: 700px;
+  }
+  .flex-rectangle-imgs {
+    img {
+      width: 60%;
+    }
   }
 }
 

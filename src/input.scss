@@ -295,20 +295,23 @@ footer {
   }
 
   .flex-rectangle-imgs {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 0.7rem;
+    grid-auto-flow: dense;
+
 
     img {
-      width: 760px;
+      width: 90%;
       height:auto;
       margin: .4em;
       box-shadow: 0 19px 38px rgba(0,0,0,0.30), 8px 9px 12px rgba(0, 0, 0, 0.22);
+      justify-self: flex-end;
     }
 
-    img:hover {
-      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    }
+    // img:hover {
+    //   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    // }
   }
 }
 
@@ -370,6 +373,7 @@ footer {
   }
 }
 
+
 @media (min-width: 700px) and (max-width: 800px) {
   .page {
     margin: 0 60px;
@@ -380,6 +384,7 @@ footer {
     border: 15px solid white;
   }
 }
+
 
 @media (min-width: 801px) and (max-width: 960px) {
   .page {

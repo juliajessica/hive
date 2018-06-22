@@ -45,7 +45,6 @@ body {
   max-width: 1300px;
   margin: auto;
   display: block;
-
 }
 
 .banner-homepage {
@@ -181,10 +180,21 @@ body {
 }
 
 footer {
+  font-size: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 37px;
+  padding-bottom: 30px;
+  background-color: $pink;
+
+  // width:100%;
+  max-width: 2000px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.booking-time {
+  margin-bottom: 20px;
 }
 
 
@@ -212,7 +222,7 @@ footer {
 
 .page {
   h1 {
-    padding: 1em 0;
+    padding: .2em 0;
     font-size: 35px;
   }
   .copy {
@@ -250,7 +260,7 @@ footer {
   padding-bottom: 3em;
 
   .block {
-    padding-top: 20px;
+    padding-top: 1rem;
   }
 }
 
@@ -268,10 +278,18 @@ footer {
 
 .honeycomb2 {
   position: absolute;
-  bottom: 4;
-  left:3;
   padding: 10px;
-  margin: 2em;
+  margin-right: 12em;
+  bottom: 40;
+  left:15;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  //
+  // position: absolute;
+  //   left: 0px;
+  //   top: 0px;
+  //   z-index: -1;
 }
 
 
@@ -415,11 +433,6 @@ footer {
     font-size: 6.2em;
     border: 18px solid white;
   }
-  // #categories > li{
-  //   .hex-img {
-  //     background-color: black;
-  //   }
-  // }
 }
 
 @media (min-width: 1061px) and (max-width: 1200px) {
@@ -528,6 +541,7 @@ footer {
   overflow:hidden;
   width:90%;
   margin:0 auto;
+  margin-bottom: 20px;
 }
 .clr:after{
   content:"";
